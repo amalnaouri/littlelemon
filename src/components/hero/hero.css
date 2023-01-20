@@ -1,0 +1,60 @@
+.hero  {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    margin: 30px auto 250px;
+    background-color: var(--prim-bg);
+}
+
+section {
+    margin: auto 50px;
+    grid-column: 2/5;
+    color: white;
+}
+
+h1 {
+    font: var(--headlines);
+    font-size: 40pt;
+    color: var(--prim-text);
+    letter-spacing: 0.1px;
+    margin-bottom: 0;
+    margin-top: -100px;
+}
+
+h3 {
+    font: var(--headlines);
+    font-size: 20pt;
+    margin: 0;
+}
+
+p {
+    font: var(--parragraph);
+    width: 24ch;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+button {
+    font: var(--hight-text);
+    background-color: var(--prim-text);
+    width: 155px;
+    border: 0px solid;
+    border-radius: 11px;
+    line-height: 1;
+    height: 35px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.img-section {
+    grid-column: 5;
+    margin: 20px 65px 0px 0px;
+}
+
+img {
+    width: 390px;
+    border-radius: 20px;
+}

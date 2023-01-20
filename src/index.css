@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+:root {
+  --headlines: bold 'Markazi Text', serif;
+  --sub-title: 18px  'Markazi Text', serif;
+  --parragraph: 16px 'Karla', sans-serif;
+  --card-title: bold 18px 'Karla', sans-serif;
+  --hight-text: bold 16px 'Karla', sans-serif;
+
+
+  
+  --prim-bg: #495E57;
+  --prim-text : #F4ce14;
+  --second-subtext: #EE9972;
+  --second-: #FBDABB;
+  --high-bg: #EDEFEE;
+  --high-: #333333;
+}
