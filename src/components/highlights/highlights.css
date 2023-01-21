@@ -1,0 +1,114 @@
+
+
+.sectionOne {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.cards-title {
+    grid-column: 2/4;
+    font: var(--headlines);
+    font-size: 40pt;
+    color: black;
+    letter-spacing: 0.1px;
+    margin-top: -20px;
+}
+
+.sectionOne .cards-button {
+    grid-column: 4/5;
+    font: var(--hight-text);
+    font-size: 20px;
+    background-color: var(--prim-text);
+    width: 195px;
+    border: 0px solid;
+    border-radius: 11px;
+    line-height: 1;
+    height: 55px;
+    cursor: pointer;
+    margin: -20px 0 50px 0;
+}
+
+.sectionTwo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 50px 1fr 50px 1fr 1fr;
+
+}
+
+.sectionTwo .card {
+    width: 400px;
+    height: 650px;
+    color: black;
+    background-color: var(--high-bg);
+    border-radius: 18px;
+}
+
+.card .card-img {
+    width: 100%;
+    border: 0px solid;
+    border-radius: 18px 18px 0 0;
+}
+
+.card-one {
+    grid-column: 2/3;
+}
+
+.card-one .card-description {
+    margin-bottom: 110px;
+}
+
+.card-two .card-description {
+    margin-bottom: 135px;
+}
+
+.card-three .card-description {
+    margin-bottom: 57px;
+}
+
+.card-two {
+    grid-column: 4/5;
+}
+
+.card-three {
+    grid-column: 6/7;
+}
+
+.card-title {
+    font: var(--card-title);
+    padding-left: 20px;
+}
+
+.card-price {
+    font: var(--card-title);
+    color: var(--second-subtext);
+    padding-right: 120px;
+}
+
+.card-description {
+    font: var(--paragrraph);
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+
+.card-button button {
+    background-color: transparent;
+    font: var(--hight-text);
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    margin: -100 0;
+    cursor: pointer;
+}
+
+.card-button .btn-img {
+    background-color: transparent;
+    font: var(--hight-text);
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    margin: -100 0;
+    cursor: pointer;
+}

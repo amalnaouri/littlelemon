@@ -3,7 +3,6 @@ import Hero from '../components/hero/Hero';
 import Highlights from '../components/highlights/Highlights';
 import Testimonials from '../components/testimonials/Testimonials';
 import About from '../components/about/About';
-import Footer from '../components/footer/Footer';
 
 const HomePage = () => {
   return (
@@ -12,7 +11,6 @@ const HomePage = () => {
         <Highlights />
         <Testimonials />
         <About />
-        <Footer />
     </div>
   )
 }

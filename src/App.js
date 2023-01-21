@@ -7,6 +7,7 @@ import Reservations from './pages/Reservations';
 import OrderOnline from './pages/OrderOnline';
 import Login from './pages/Login';
 import { Route, Routes } from 'react-router-dom';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/order-online" element={<OrderOnline />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      <Footer />
     </>
   );
 }
