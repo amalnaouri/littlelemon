@@ -3,7 +3,7 @@ import './highlights.css'
 import { Link } from 'react-router-dom'
 import { MdDeliveryDining } from 'react-icons/md'
 import salad from '../../assets/greek salad.jpg'
-import bruchetta from '../../assets/bruchetta.svg'
+import bruchetta from '../../assets/bruchetta.jpg'
 import dessert from '../../assets/lemon dessert.jpg'
 
 const Highlights = () => {

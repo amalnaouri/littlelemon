@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from '../components/hero/Hero';
 import Highlights from '../components/highlights/Highlights';
-import Testimonials from '../components/testimonials/Testimonials';
 import About from '../components/about/About';
 
 const HomePage = () => {
@@ -9,7 +8,6 @@ const HomePage = () => {
     <div>
         <Hero />
         <Highlights />
-        <Testimonials />
         <About />
     </div>
   )
